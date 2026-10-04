@@ -1,0 +1,15 @@
+[package]
+name = "kernel-api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+kernel-core = { path = "../kernel-core" }
+world-registry = { path = "../world-registry" }
+reality-resolver = { path = "../reality-resolver" }
+projection-engine = { path = "../projection-engine" }
+policy = { path = "../policy" }
+serde_json.workspace = true
+chrono.workspace = true
+uuid.workspace = true

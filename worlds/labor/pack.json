@@ -1,0 +1,27 @@
+{
+  "id": "labor",
+  "entity_types": [
+    "robot",
+    "factory"
+  ],
+  "semantic_keys": [
+    "deployment.location",
+    "labor.outcome"
+  ],
+  "projections": [
+    {
+      "id": "labor.deployment",
+      "world": "labor",
+      "entity_types": [
+        "robot",
+        "factory"
+      ],
+      "required": [
+        "deployment.location",
+        "labor.outcome"
+      ],
+      "optional": [],
+      "depends_on": []
+    }
+  ]
+}

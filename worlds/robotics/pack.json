@@ -1,0 +1,28 @@
+{
+  "id": "robotics",
+  "entity_types": [
+    "robot",
+    "factory"
+  ],
+  "semantic_keys": [
+    "deployment.location",
+    "physical.payload"
+  ],
+  "projections": [
+    {
+      "id": "robotics.deployment",
+      "world": "robotics",
+      "entity_types": [
+        "robot",
+        "factory"
+      ],
+      "required": [
+        "deployment.location"
+      ],
+      "optional": [
+        "physical.payload"
+      ],
+      "depends_on": []
+    }
+  ]
+}

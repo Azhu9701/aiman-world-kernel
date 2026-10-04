@@ -1,0 +1,27 @@
+{
+  "id": "social",
+  "entity_types": [
+    "robot",
+    "factory"
+  ],
+  "semantic_keys": [
+    "deployment.location",
+    "social.voice_gap"
+  ],
+  "projections": [
+    {
+      "id": "social.deployment",
+      "world": "social",
+      "entity_types": [
+        "robot",
+        "factory"
+      ],
+      "required": [
+        "deployment.location",
+        "social.voice_gap"
+      ],
+      "optional": [],
+      "depends_on": []
+    }
+  ]
+}
